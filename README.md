@@ -1,4 +1,4 @@
-# Splogger
+# 📝 Splogger
 
 (S)olana (P)rogram (Logger)
 
