@@ -1,8 +1,6 @@
 # 📝 Splogger
 
-(S)olana (P)rogram (Logger)
-
----
+### (S)olana (P)rogram (Logger)
 
 Just for fun, for now:
 
