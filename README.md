@@ -5,11 +5,11 @@
 Just for fun, for now:
 
 ```rust
-splog_debug!("This is a debug message.");
-splog_info!("This is an info message.");
-splog_warn!("This is a warning message.");
-splog_error!("This is an error message.");
-splog_critical!("This is a critical message.");
+debug!("This is a debug message.");
+info!("This is an info message.");
+warn!("This is a warning message.");
+error!("This is an error message.");
+critical!("This is a critical message.");
 ```
 
 ```shell
