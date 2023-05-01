@@ -1,6 +1,11 @@
 [package]
 name = "splogger"
-version = "0.1.0"
+version = "0.0.1"
+authors = ["Joe Caulfield <jcaulfield135@gmail.com>"]
+repository = "https://github.com/nautilus-project/splogger"
+license = "Apache-2.0"
+description = "Custom logging lib for Solana programs"
+rust-version = "1.59"
 edition = "2021"
 
 [dependencies]
