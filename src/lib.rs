@@ -25,26 +25,26 @@ macro_rules! splog {
 }
 
 #[macro_export]
-macro_rules! splog_debug {
+macro_rules! debug {
     ($($arg:tt)*) => ($crate::splog!(Splog::DEBUG, &format!($($arg)*)));
 }
 
 #[macro_export]
-macro_rules! splog_info {
+macro_rules! info {
     ($($arg:tt)*) => ($crate::splog!(Splog::INFO, &format!($($arg)*)));
 }
 
 #[macro_export]
-macro_rules! splog_warn {
+macro_rules! warn {
     ($($arg:tt)*) => ($crate::splog!(Splog::WARN, &format!($($arg)*)));
 }
 
 #[macro_export]
-macro_rules! splog_error {
+macro_rules! error {
     ($($arg:tt)*) => ($crate::splog!(Splog::ERROR, &format!($($arg)*)));
 }
 
 #[macro_export]
-macro_rules! splog_critical {
+macro_rules! critical {
     ($($arg:tt)*) => ($crate::splog!(Splog::CRITICAL, &format!($($arg)*)));
 }
